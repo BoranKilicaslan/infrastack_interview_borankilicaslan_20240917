@@ -1,0 +1,34 @@
+{
+  "name": "infrastack_interview_borankilicaslan_20240917",
+  "version": "1.0.0",
+  "description": "A wrapper for OpenTelemetry SDKs for simplifying configuration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BoranKilicaslan/infrastack_interview_fs_bk_20240917.git"
+  },
+  "keywords": [
+    "opentelemetry",
+    "monitoring",
+    "observability",
+    "sdk",
+    "tracing",
+    "instrumentation"
+  ],
+  "author": "Boran Kilicaslan <borankilicaslan9@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BoranKilicaslan/infrastack_interview_fs_bk_20240917/issues"
+  },
+  "homepage": "https://github.com/BoranKilicaslan/infrastack_interview_fs_bk_20240917#readme",
+  "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
+    "@opentelemetry/instrumentation-express": "^0.42.0",
+    "@opentelemetry/instrumentation-http": "^0.53.0",
+    "@opentelemetry/instrumentation-mongodb": "^0.47.0",
+    "@opentelemetry/sdk-node": "^0.53.0"
+  }
+}
