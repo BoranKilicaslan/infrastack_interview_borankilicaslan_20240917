@@ -9,4 +9,4 @@ This npm package provides a wrapper for OpenTelemetry SDKs to simplify configura
 You can install this package using npm:
 
 ```sh
-npm install infrastack_interview_borankilicaslan_20240917
+npm i infrastack_interview_borankilicaslan_20240917
