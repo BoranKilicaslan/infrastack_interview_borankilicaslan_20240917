@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  otel-collector:
+    image: otel/opentelemetry-collector:latest
+    ports:
+      - "4317:4317"  # Map the gRPC port
+    volumes:
+      - ./otel-config.yaml:/otel-config.yaml  # Mount your config file
+    command: ["--config=/otel-config.yaml"]  # Use the config file
